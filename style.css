@@ -1,0 +1,215 @@
+a{
+  text-decoration: none;
+}
+
+.hero{
+    background-image:url("./Assets/hero-bg.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+}
+.layer{
+    background-color: rgba(240, 248, 255, 0.692);
+    height: 90vh;
+}
+
+.hero-content h1{
+    font-size: 4rem !important;
+
+}
+.hero-icon{
+    cursor: pointer;
+}
+ .hero-icon p:hover
+{
+    color: #0d6efd !important;
+  }
+
+
+
+.soft_skils_item-svg-par{
+ position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.soft_skills{
+  margin-top: 8rem;
+}
+
+.progress{
+  height: 0.5rem !important;
+}
+
+
+/* section 5 services */
+
+.pointer{
+  cursor: pointer;
+}
+
+
+
+.services-item
+{
+    padding:50px 0px ;
+    transition: all 0.4s;
+    
+}
+.services-item:hover
+{
+
+  transform: scale(1.05);
+    border-color:rgb(59, 59, 238) !important;
+
+}
+
+
+
+
+.services-item a
+{
+    transition: color 0.3s;
+}
+
+.services-item:hover a
+{
+    color: rgb(59, 59, 238) !important;
+} 
+
+
+
+/* team section */
+
+
+.icon-layer 
+{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.social:hover .social-icons 
+{
+    top: 75%;
+}
+
+
+.social-icons .icon, footer .icon
+{
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffffd0;
+    border-radius: 5px;
+    margin:10px;
+    transition: all 0.8s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.social-icons .icon:hover
+{
+    background-color: #378bf8a8 !important;
+}
+
+.social-icons .icon:hover svg
+{
+    color: white !important;
+}
+.social-icons
+{
+    
+    background-color:transparent;
+    position: absolute;
+    top:101%;
+    bottom: 0;
+    height: 100%;
+    width:100%;
+    padding: 10px;
+    transition: top 0.7s;
+    
+
+}
+
+
+/* footer */
+
+
+footer p {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+footer ul a{
+
+  font-size: 1.2rem;
+  color: #6c757d !important ;
+  font-weight: 600;
+
+}
+
+footer ul a:hover{
+  color: #0d6efd !important
+}
+
+footer .icon{
+  background-color: #0d6efd;
+  justify-content: space-around;
+}
+
+footer .icon:hover{
+  background-color: #0848a8;
+}
+
+
+
+  /* media */
+
+/* Small devices (sm ≥576px and <768px) */
+@media (max-width: 767.98px) {
+  .hero-content h1 {
+    font-size: 2rem !important;
+  }
+  .icon1 , .icon2{
+    background-color: #f8f9fa !important;
+  }
+  
+  
+}
+
+/* Medium devices (md ≥768px and <992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-content h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* Large devices (lg ≥992px and <1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-content h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .hero-content h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content h1 {
+    font-size: 4rem ;
+  }
+}
